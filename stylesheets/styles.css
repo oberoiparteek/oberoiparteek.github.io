@@ -109,6 +109,9 @@ header {
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+header .img-section{
+  text-align: center;
+}
 
 header ul {
   list-style:none;
@@ -121,7 +124,7 @@ header ul {
 }
 
 header li {
-  width:89px;
+  width:100%;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
@@ -267,4 +270,9 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+.profile-img{
+  border-radius: 50%;
+  width: 200px;
 }
